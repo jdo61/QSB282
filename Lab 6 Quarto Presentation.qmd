@@ -1,25 +1,23 @@
 ---
+bibliography: references.bib
 title: "Lab 6: Quarto Presentation"
 author: "Jonathan Do"
 format: revealjs
 editor: visual
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+-   I helped test this experimental Covid-19 vaccine. [@weidenbacher_ferritin-based_2023]
 
-## Bullets
+<!-- -->
 
-When you click the **Render** button a document will be generated that includes:
+-   I helped test this experimental ebola vaccine. [@xu_design_2024]
 
--   Content authored with markdown
--   Output from executable code
+-   I helped test these engineered SARS-CoV-2 spike proteins. [@bruun_engineering_2024]
 
-## Code
+## A Cool Equation or Two
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+$pA = \frac{f(A)}{\sum_{b \in \{A,C,G,T\}}f(b) }$
 
-```{r}
-1 + 1
-```
+## References
