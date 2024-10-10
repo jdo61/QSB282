@@ -29,7 +29,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="Lab 6 Quarto Presentation_files/libs/revealjs/dist/theme/quarto.css">
   <link href="Lab 6 Quarto Presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Lab 6 Quarto Presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -340,23 +360,35 @@ Jonathan Do
 <section id="some-important-literature" class="slide level2">
 <h2>Some Important Literature</h2>
 <ul>
-<li>I helped test this experimental Covid-19 vaccine. <span class="citation" data-cites="weidenbacher_ferritin-based_2023">(<a href="" role="doc-biblioref" onclick="return false;"><strong>weidenbacher_ferritin-based_2023?</strong></a>)</span></li>
+<li>I helped test this experimental Covid-19 vaccine. <span class="citation" data-cites="weidenbacher_ferritin-based_2023">(<a href="#/references" role="doc-biblioref" onclick="">Weidenbacher et al. 2023</a>)</span></li>
 </ul>
 <!-- -->
 <ul>
-<li><p>I helped test this experimental ebola vaccine. <span class="citation" data-cites="xu_design_2024">(<a href="" role="doc-biblioref" onclick="return false;"><strong>xu_design_2024?</strong></a>)</span></p></li>
-<li><p>I helped test these engineered SARS-CoV-2 spike proteins. <span class="citation" data-cites="bruun_engineering_2024">(<a href="" role="doc-biblioref" onclick="return false;"><strong>bruun_engineering_2024?</strong></a>)</span></p></li>
+<li><p>I helped test this experimental ebola vaccine. <span class="citation" data-cites="xu_design_2024">(<a href="#/references" role="doc-biblioref" onclick="">Xu et al. 2024</a>)</span></p></li>
+<li><p>I helped test these engineered SARS-CoV-2 spike proteins. <span class="citation" data-cites="bruun_engineering_2024">(<a href="#/references" role="doc-biblioref" onclick="">Bruun et al. 2024</a>)</span></p></li>
 </ul>
 </section>
 <section id="a-cool-equation-or-two" class="slide level2">
 <h2>A Cool Equation or Two</h2>
+<p><span class="math inline">\(a^2+b^2=c^2\)</span></p>
 <p><span class="math inline">\(pA = \frac{f(A)}{\sum_{b \in \{A,C,G,T\}}f(b) }\)</span></p>
 </section>
-<section id="references" class="slide level2">
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bruun_engineering_2024" class="csl-entry" role="listitem">
+Bruun, Theodora U. J., Jonathan Do, Payton A.-B. Weidenbacher, Ashley Utz, and Peter S. Kim. 2024. <span>“Engineering a <span>SARS</span>-<span>CoV</span>-2 <span>Vaccine</span> <span>Targeting</span> the <span>Receptor</span>-<span>Binding</span> <span>Domain</span> <span>Cryptic</span>-<span>Face</span> via <span>Immunofocusing</span>.”</span> <em>ACS Central Science</em>, September. <a href="https://doi.org/10.1021/acscentsci.4c00722">https://doi.org/10.1021/acscentsci.4c00722</a>.
+</div>
+<div id="ref-weidenbacher_ferritin-based_2023" class="csl-entry" role="listitem">
+Weidenbacher, Payton A.-B., Mrinmoy Sanyal, Natalia Friedland, Shaogeng Tang, Prabhu S. Arunachalam, Mengyun Hu, Ozan S. Kumru, et al. 2023. <span>“A Ferritin-Based <span>COVID</span>-19 Nanoparticle Vaccine That Elicits Robust, Durable, Broad-Spectrum Neutralizing Antisera in Non-Human Primates.”</span> <em>Nature Communications</em> 14 (1): 2149. <a href="https://doi.org/10.1038/s41467-023-37417-9">https://doi.org/10.1038/s41467-023-37417-9</a>.
+</div>
+<div id="ref-xu_design_2024" class="csl-entry" role="listitem">
+Xu, Duo, Abigail E. Powell, Ashley Utz, Mrinmoy Sanyal, Jonathan Do, J. J. Patten, Juan I. Moliva, Nancy J. Sullivan, Robert A. Davey, and Peter S. Kim. 2024. <span>“Design of Universal <span>Ebola</span> Virus Vaccine Candidates via Immunofocusing.”</span> <em>Proceedings of the National Academy of Sciences</em> 121 (7): e2316960121. <a href="https://doi.org/10.1073/pnas.2316960121">https://doi.org/10.1073/pnas.2316960121</a>.
 </div>
 </div>
 </section>

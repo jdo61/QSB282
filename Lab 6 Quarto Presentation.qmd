@@ -18,6 +18,8 @@ editor: visual
 
 ## A Cool Equation or Two
 
+$a^2+b^2=c^2$
+
 $pA = \frac{f(A)}{\sum_{b \in \{A,C,G,T\}}f(b) }$
 
 ## References
